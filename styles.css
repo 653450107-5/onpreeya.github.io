@@ -1,16 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap');
 
 .container {
+    font-family: "Kanit", sans-serif;
     max-width: 600px;
     margin: 0 auto;
     margin-top: 50px;
+    text-align: center;
 }
 
-body {
+h1.name {
     font-family: "Kanit", sans-serif;
-  }
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
 
 h5 {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.port {
+    font-family: "Kanit", sans-serif;
+}
+
+p.slogan {
+    color: rgb(0, 0, 0);
+}
+
+p {
+    color: rgb(103, 103, 103);
+    font-weight: lighter;
     text-align: center;
 }
 
@@ -22,10 +44,23 @@ hr {
 }
 
 img {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 0px 0px 4px rgb(0, 0, 0.7);
+}
+
+.button {
+    border-radius: 20px; /* ปรับขอบปุ่มให้โค้งมากขึ้น */
+    padding: 10px 20px; /* ปรับระยะห่างภายในปุ่ม */
+    background-color: #007bff; /* สีพื้นหลังของปุ่ม */
+    color: white; /* สีของตัวอักษรภายในปุ่ม */
+    border: none; /* ไม่มีเส้นขอบ */
+    cursor: pointer; /* เป็นปุ่มแบบคลิกได้ */
+    font-size: 16px; /* ขนาดตัวอักษร */
+    font-weight: bold; /* น้ำหนักตัวอักษร */
+    text-decoration: none; /* ไม่มีขีดเส้นใต้ข้อความ */
 }
